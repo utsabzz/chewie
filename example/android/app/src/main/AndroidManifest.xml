@@ -37,7 +37,7 @@
         <!-- Example of a BroadcastReceiver -->
         <receiver
             android:name=".MyReceiver"
-            android:exported="true">
+            >
             <intent-filter>
                 <action android:name="com.example.ACTION"/>
             </intent-filter>
